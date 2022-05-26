@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #520202;
+    overflow-x: hidden;
+}
+.wrapper{
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    margin: 1%;
+}
+.box{
+    width: 95px;
+    height: 95px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: -2px;
+   background-color: #ffffff;
+}
+.black{
+    background-color: #666161;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    animation: mov-img 20s infinite;
+    position: relative;
+}
+
+@keyframes mov-img{
+    0%  {top:0px; right:0px;}
+    3%  {top:0px; right: 190px;}
+    6%  {top:100px; right:190px;}
+    9%  {top:300px; right:190px;}
+    12% {top:300px; right:290px;}
+    15% {top: 300px; right: 490px;}
+    18% {top: 400px; right: 490px;}
+    21% {top: 400px; right: 290px;}
+    24% {top: 500px; right: 290px;}
+    27% {top: 670px; right: 290px;}
+    30% {top: 670px; right: 190px;}
+    33% {top: 500px; right: 190px;}
+    36% {top: 500px; right:90px;}
+    39% {top: 670px; right: 90px;}
+    42% {top: 670px; right: 0px;}
+    45% {top:670px; right:0px;}
+    48% {top:670px; right: 90px;}
+    51% {top:500px; right:90px;}
+    54% {top:500px; right:190px;}
+    57% {top:670px; right:190px;}
+    60% {top: 670px; right: 290px;}
+    63% {top: 500px; right: 290px;}
+    66% {top: 400px; right: 290px;}
+    69% {top: 400px; right: 490px;}
+    72% {top: 300px; right: 490px;}
+    75% {top: 300px; right: 290px;}
+    78% {top: 300px; right: 190px;}
+    81% {top: 100px; right:190px;}
+    84% {top: 0px; right: 190px;}
+    100%{top: 0px; right: 0px;}
+}
